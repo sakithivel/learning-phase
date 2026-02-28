@@ -1,0 +1,49 @@
+
+
+.forget{
+    font-size: 20px;
+    color: rgb(21, 124, 226);
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.forget:hover{
+     color: #2769d3;
+     text-decoration:underline;
+     cursor:crosshair;
+     font-size: 50px;   
+}
+body{
+    background-color: rgb(17, 209, 135);
+    margin: 10% 10% 10% 10%;
+    background: url('./anime.jpg');
+    background-size: cover;   
+}
+button{
+    color: #324bd5;
+    border: 4px solid rgb(137, 20, 220);
+    background-color:rgb(227, 220, 233);
+    border-radius: 0.5%;
+    font-size:larger;
+}
+.Page-card{
+    border: 5px solid rgb(225, 217, 217);
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+h1{
+    color: #b916a9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Page-control{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    height: 30px;
+    width: 70%;
+    border-radius: 10px;
+
+}
